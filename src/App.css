@@ -36,3 +36,74 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.expenseBox {
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 60px;
+  padding: 5px 10px;
+  font-size: large;
+}
+
+.expenseBox span {
+  font-weight: bold;
+  color: green;
+}
+
+.btn {
+  outline: none;
+  padding: 5px 10px;
+  background-color: #ede9fe;
+  color: #6d28d9;
+  border-radius: 5px;
+  border: 1px solid #6d28d9;
+  cursor: pointer;
+}
+
+.primary {
+  color: #fff;
+  background-color: #6d28d9;
+  padding: 8px 10px;
+}
+
+.cancel {
+  background-color: #fff;
+  color: #dc2626;
+  border: 1px solid #dc2626;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 180px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type='radio'] {
+  margin-left: 10px;
+}
+
+.transaction {
+  border-radius: 5px;
+  background-color: #f4f4f5;
+  padding: 10px 15px;
+  font-weight: 500;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 4px solid green;
+}
